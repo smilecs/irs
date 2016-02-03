@@ -1,9 +1,16 @@
 var express = require('express');
 var router = express.Router();
+var request = require('http');
+var model = require('../conf/schema');
+var fs = require('fs');
+var data = model.dataModel;
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+router.post('/upload', function(req, res, next) {
+  console.log(req.file);
+  //res.render('index', { title: 'Express' });
+  request.get('/', function(response){
+
+  });
 });
 
 module.exports = router;

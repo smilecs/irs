@@ -1,7 +1,7 @@
 var app = angular.module('irs', ['ngRoute', 'ngCookies']);
 app.config(['$routeProvider', function($routeProvider){
-	$routeProvider.when('/signin', {
+	$routeProvider.when('/upload', {
 		controller:'MainCtlr',
-        templateUrl:'../signin.html'
+        templateUrl:'../upload.html'
 	});
 }]);
