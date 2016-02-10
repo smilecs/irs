@@ -23,11 +23,9 @@ payment_ref: String,
 revenue_item: String,
 amount: Number,
 payment_method: String,
-deposit_slip: String,
 bank: String,
 revenue_category: String,
 bank_branch: String,
-payment_code: String
 });
 
 
